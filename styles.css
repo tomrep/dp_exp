@@ -1,0 +1,15 @@
+.button {
+    background-color: #4CAF50; /* Green */
+    border: blue 1px solid;
+    border-radius: 15%;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.main {
+    position: absolute;
+    margin: 0 auto;
+}
