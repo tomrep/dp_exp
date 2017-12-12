@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css" />
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="logger_js.js"></script>
+</head>
+<body>
+    <p> V tomto experimente budes opakovane zadavat heslo, ktore si na zaciatku urcis.</p>
+    <p> Heslo by malo byt dlhsie ako 6 znakov, obsahovat aspon jednu cislicu (pre zadanie
+        cislic pouzi cisla nad pismenami) a rovnaky znak by nemal byt 2x po sebe</p>
+    <p> Po zadani hesla je mozne ho potvrdit klavesou Enter, alebo kliknutim na tlacidlo OK</p>
+    <p> V pripade, ze zadane heslo je nespravne, potvrd ho a pokracuj dalej</p>
+    <p> Ked budes pripraveny, zadaj svoje meno(idealne AIS ID) a heslo, potom stlac tlacidlo Start</p>
+	<input id="username" placeholder="username" type="text" />
+	<input id="password" placeholder="password" type="text" />
+	<a class="button" href="pass1.html" onclick="setPassword()">Start</a>
+
+    <script type="text/javascript" src="router.js"></script>
+</body>
+</html>
