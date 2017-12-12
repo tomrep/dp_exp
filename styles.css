@@ -1,7 +1,6 @@
 .button {
-    background-color: #4CAF50; /* Green */
-    border: blue 1px solid;
-    border-radius: 15%;
+    background-color: dodgerblue;
+    border-radius: 10%;
     color: white;
     padding: 10px 22px;
     text-align: center;
@@ -12,4 +11,8 @@
 .main {
     position: absolute;
     margin: 0 auto;
+    text-align: center;
+}
+#pass {
+    height: 35px;
 }
